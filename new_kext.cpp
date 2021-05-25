@@ -44,7 +44,7 @@ void _opdel(void* p)
     assert(p);
     if (p)
     {
-        size_t* t = (size_t*)p-1;
+        size_t* t = (size_t*)p-1
         IOFreeAligned(t, *t);
     }
 }
@@ -72,4 +72,5 @@ void _opdela(void* p)
 } // extern "C"
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+build
 
